@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.heading {
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+    margin: 2.5vh 0;
+}
+#mymap {
+    width: 90vw;
+    height: 70vh;
+    margin: 0 5vw 2vh;
+    border: 3px solid #888;
+}
+.button-group {
+    justify-content: space-evenly !important;
+}
+.map-zoom-out-btn, .search-btn {
+    background-color: #0072B5;
+    color: #FFF;
+    padding: 10px 35px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.select-dropdown {
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 10px 35px;
+    border: 1px solid #AAA;
+    font: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: #FFF;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: right 15px top 1em, right 10px top 1em;
+    background-size: 5px 5px, 5px 5px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 8px;
+}
+.footer a {
+    padding: 0 5px 0 5px;
+    color: #000;
+    cursor: pointer;
+}
+.flex-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
